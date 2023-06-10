@@ -15,7 +15,7 @@ class Game{
 
         this.clock = new THREE.Clock();
 
-		this.assetsPath = '../../assets/';
+		this.assetsPath = './assets/';
         
 		this.camera = new THREE.PerspectiveCamera( 70, window.innerWidth / window.innerHeight, 0.01, 100 );
         this.camera.position.set( -4.37, 0, -4.75 );
