@@ -1,5 +1,5 @@
-import * as THREE from '../../libs/three128/three.module.js';
-import * as CANNON from '../../libs/cannon-es.js';
+import * as THREE from './three128/three.module.js';
+import * as CANNON from './cannon-es.js';
 
 let wireframeMaterial;
 
